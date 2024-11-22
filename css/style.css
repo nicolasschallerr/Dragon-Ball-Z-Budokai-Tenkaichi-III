@@ -1,0 +1,145 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("../assets/fondo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ff4500;
+  text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+#nav-list li a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+}
+#nav-list li a:hover {
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #ff4500;
+  text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.8);
+
+  .btn {
+    font-weight: bold;
+  }
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #e5e5e5;
+  border: 2px solid #ff4500;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 69, 0, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 69, 0, 0.6);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #ff4500;
+  font-weight: bold;
+  text-shadow: 1px 1px 8px rgba(255, 69, 0, 0.8);
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #e5e5e5;
+}
+
+.card .btn {
+  background-color: #ff6347;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card .btn:hover {
+  background-color: #ff4500;
+  color: #fff;
+}
+
+.botones {
+  text-align: center;
+}
+
+.swal-title {
+  color: #ff4500;
+  text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.8);
+}
+
+.swal-popup {
+  border: 2px solid #ff6347;
+  border-radius: 10px;
+}
+
+.swal-text {
+  color: #e5e5e5;
+}
+
+.swal2-popup {
+  background-color: #121212;
+  color: #e5e5e5;
+  border: 2px solid #ff6347;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.swal2-title {
+  color: #ff4500;
+  text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.8);
+  font-size: 1.5rem;
+}
+
+.swal2-text {
+  color: #e5e5e5;
+  font-size: 1.1rem;
+}
+
+.swal2-confirm {
+  background-color: #ff6347;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.swal2-confirm:hover {
+  background-color: #ff4500;
+}

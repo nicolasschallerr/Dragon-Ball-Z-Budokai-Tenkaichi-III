@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Super Saiyajin Goku",
+    "ataque": 60,
+    "defensa": 115,
+    "imagen": "../assets/goku.avif"
+  },
+  {
+    "nombre": "Soldado de Orgullo Giren",
+    "ataque": 60,
+    "defensa": 130,
+    "imagen": "../assets/jiren.jpeg"
+  },
+  {
+    "nombre": "Soldado de Orgullo Toppo",
+    "ataque": 40,
+    "defensa": 140,
+    "imagen": "../assets/Toppo.png"
+  },
+  {
+    "nombre": "Super Saiyajin Vegeta",
+    "ataque": 55,
+    "defensa": 110,
+    "imagen": "../assets/vegeta.webp"
+  },
+  {
+    "nombre": "Dios Champa",
+    "ataque": 80,
+    "defensa": 90,
+    "imagen": "../assets/champa.jpeg"
+  },
+  {
+    "nombre": "Super Saiyajin Broly",
+    "ataque": 40,
+    "defensa": 140,
+    "imagen": "../assets/broly.jpeg"
+  }
+]

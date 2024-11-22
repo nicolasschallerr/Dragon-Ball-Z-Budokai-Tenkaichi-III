@@ -1,0 +1,55 @@
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dragon Ball Combat</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--JavaScript-->
+    <script type="module" src="js/personajes.js"></script>
+    <script type="module" src="js/combates.js"></script>
+  </head>
+  <body>
+    <header id="title">
+      <h1>Dragon Ball Combat</h1>
+    </header>
+    <main>
+      <section id="inicio">
+        <h2>Dragon Ball Z: Budokai Tenkaichi III</h2>
+      </section>
+      <section id="personajes-section" class="container my-5">
+        <div class="row"></div>
+      </section>
+      <section id="historial-combates" class="container my-5"></section>
+      <div id="movimientos"></div>
+    </main>
+    <div class="botones">
+      <button id="iniciar-combate" class="btn btn-success">
+        Iniciar Combate
+      </button>
+      <button id="limpiar-seleccion" class="btn btn-warning">
+        Limpiar Selección
+      </button>
+      <button id="reiniciar-historial" class="btn btn-danger">
+        Reiniciar Historial
+      </button>
+    </div>
+    <!--SWEETALERT-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- BOOTSTRAP JS -->
+    <script>
+      src =
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js";
+      integrity =
+        "sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz";
+      crossorigin = "anonymous";
+    </script>
+  </body>
+</html>
